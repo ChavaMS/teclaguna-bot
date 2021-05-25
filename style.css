@@ -1,0 +1,208 @@
+.tecbot-container {
+    position: fixed;
+    bottom: 0;
+    right: 0;
+    box-shadow: 0px 0px 5px rgb(0, 0, 0, 0.5);
+    border-radius: 10px;
+}
+
+.tecbot-titleChatBar {
+    width: 300px;
+    padding: 10px;
+    background-color: #19396a;
+    font-size: 12pt;
+    border-radius: 10px 10px 0 0;
+    cursor: pointer;
+    color: #fff;
+    box-sizing: content-box;
+    padding-right: 15px;
+    padding-left: 15px;
+    font-family: 'Poppins';
+}
+
+.tecbot-Dot {
+    background-color: #0e0;
+    height: 10px;
+    width: 10px;
+    border-radius: 10px;
+    display: inline-block;
+    margin-right: 5px;
+    margin-bottom: -1px;
+}
+
+.tecbot-titleBarText {
+    display: inline-block;
+}
+
+.tecbot-icon {
+    font-size: 10pt;
+    float: right;
+}
+
+.tecbot-minimize {
+    max-height: 0px;
+    transition: max-height 0.25s ease-out;
+    overflow: hidden;
+}
+
+.tecbot-maximize {
+    max-height: 500px !important;
+    transition: max-height 0.25s ease-in;
+
+}
+
+.tecbot-chatContainer {
+    background-color: #fff;
+    width: 330px;
+    height: 500px;
+    overflow-y: auto;
+    overflow-x: hidden;
+}
+
+.tecbot-chatBox {
+    width: 330px;
+    padding-top: 15px;
+    padding-bottom: 15px;
+    background-color: #fff;
+    min-height: 300px;
+}
+
+.fbot-chat-img {
+    width: 100%;
+    margin-top: 15px;
+    margin-bottom: 15px;
+    border: 5px solid #fff;
+}
+
+.tecbot-chatWelcome {
+    font-size: 12pt;
+    text-align: center;
+    margin-bottom: 25px;
+    font-weight: bold;
+    font-family: 'Poppins';
+}
+
+/* .fbot-chatWelcomeImg {
+    width: 70px;
+    margin-bottom: 10px;
+}
+ */
+.tecbot-msgBot {
+    font-size: 11pt;
+    width: 100%;
+    float: right;
+    -moz-box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+    box-sizing: border-box
+}
+
+.tecbot-msgBotText {
+    max-width: 70%;
+    padding: 10px;
+    border-radius: 6px;
+    margin-bottom: 10px;
+    background-color: #E3E3E3;
+    margin-left: 10px;
+    font-size: 10pt;
+    text-align: left;
+    float: left;
+    display: block;
+    overflow-wrap: break-word;
+    font-family: 'Poppins';
+}
+
+.cargando {
+    width: 85%;
+    padding: 10px;
+    border-radius: 6px;
+    margin-bottom: 10px;
+    margin-left: 10px;
+    font-size: 10pt;
+    text-align: center;
+    float: left;
+    display: block;
+    overflow-wrap: break-word;
+    font-family: 'Poppins';
+}
+
+.tecbot-msgUser {
+    font-size: 10pt;
+    width: 100%;
+    float: right;
+    -moz-box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+    box-sizing: border-box
+}
+
+.tecbot-msgUserText {
+    font-family: 'Poppins';
+    background-color: #e0e0e0;
+    overflow-wrap: break-word;
+    max-width: 60%;
+    margin-bottom: 10px;
+    text-align: left;
+    display: block;
+    float: right;
+    padding: 10px;
+    margin-right: 20px;
+    border-radius: 6px;
+}
+
+
+.tecbot-inputBox {
+    height: 50px;
+    background-color: #fff;
+    border-radius: 0 0 10px 10px;
+    width: 100%;
+    box-shadow: 5px -5px 15px #ccc;
+}
+
+.tecbot-input {
+    font-size: 11pt;
+    border: 0px;
+    height: 100%;
+    border-radius: 0 0 0 18px;
+    padding: 0px;
+    padding-left: 15px;
+    width: 82%;
+    -moz-box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+    box-sizing: border-box;
+    font-family: 'Poppins';
+}
+
+.tecbot-sendButton {
+    background-color: #19396a;
+    border: 0px;
+    border-radius: 40px;
+    color: #fff;
+    font-size: 15pt;
+    padding: 5px;
+    width: 10%;
+    cursor: pointer;
+    height: 40px;
+    width: 40px;
+}
+
+/*MENU ITEM*/
+.menu-option {
+    cursor: pointer;
+    border: solid black 1px;
+    border-radius: 2px;
+    text-align: left;
+    margin-top: 0px;
+    padding: 5px;
+    width: 100% !important;
+    text-align: center;
+}
+
+.menu-option:hover {
+    background-color: #7D7F7D;
+    /* text-decoration: underline blue !important; */
+}
+
+
+.listas {
+    list-style: none;
+   /*  list-style-image: url('./next.png'); */
+}
